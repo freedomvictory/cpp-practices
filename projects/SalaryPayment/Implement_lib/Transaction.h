@@ -1,0 +1,8 @@
+//
+// Created by dingguoliang on 2020/11/28.
+//
+
+#ifndef SALARYPAYMENT_TRANSACTION_H
+#define SALARYPAYMENT_TRANSACTION_H
+
+#endif //SALARYPAYMENT_TRANSACTION_H
