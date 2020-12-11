@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/SalaryPayment.dir/main.cpp.o  -o SalaryPayment.exe -Wl,--out-implib,libSalaryPayment.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

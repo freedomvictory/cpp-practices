@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/cpp_pointer.dir/main.cpp.o CMakeFiles/cpp_pointer.dir/customStrBlob.cpp.o CMakeFiles/cpp_pointer.dir/customStrBlobPtr.cpp.o  -o cpp_pointer.exe -Wl,--out-implib,libcpp_pointer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

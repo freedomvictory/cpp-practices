@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/cpp-pointer/customStrBlob.cpp
+customStrBlob.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/cpp-pointer/customStrBlob.h
+customStrBlobPtr.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/cpp-pointer/customStrBlobPtr.h
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/cpp-pointer/customStrBlob.h
+iostream
+-
+vector
+-
+memory
+-
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/cpp-pointer/customStrBlobPtr.cpp
+customStrBlobPtr.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/cpp-pointer/customStrBlobPtr.h
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/cpp-pointer/customStrBlobPtr.h
+customStrBlob.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/cpp-pointer/customStrBlob.h
+

@@ -1,0 +1,43 @@
+@startuml
+
+
+interface PaymentMethod
+class Employee
+abstract class PaymentClassification
+interface Affiliation
+
+
+Employee *--> PaymentMethod
+Employee *--> PaymentClassification
+Employee *--> Affiliation
+
+
+class Salaried_Classfication {
+    Salary
+}
+class Hourly_Classfication {
+    HourlyRate
+}
+class Commisioned_Classfication {
+    CommisionRate
+    Salary
+}
+
+
+
+PaymentClassification <|-- Salaried_Classfication
+PaymentClassification <|-- Hourly_Classfication
+PaymentClassification <|-- Commisioned_Classfication
+
+
+class HoldMethod
+class DirectMethod
+class MailMethod
+
+PaymentMethod <|-- HoldMethod
+PaymentMethod <|-- DirectMethod
+PaymentMethod <|-- MailMethod
+
+
+
+@enduml

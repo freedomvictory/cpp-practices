@@ -1,0 +1,43 @@
+
+@startuml
+
+interface Transaction
+class AddEmployeeTransaction{
+empid
+itsAddress
+itsName
+}
+
+class Employee {
+    setSchedule()
+    setClassfication()
+    setMethod()
+}
+
+class PayrollDatabase
+class HoldMethod
+
+class AddHourlyEmployee{
+    hourlyRate
+}
+
+class AddSalariedEmployee{
+    salary
+}
+
+class AddCommissionedEmployee{
+    salary
+    commissionRate
+}
+
+
+Transaction <|-- AddEmployeeTransaction
+AddEmployeeTransaction <|-- AddHourlyEmployee
+AddEmployeeTransaction <|-- AddSalariedEmployee
+AddEmployeeTransaction <|-- AddCommissionedEmployee
+
+AddEmployeeTransaction -> Employee : <creates>
+AddEmployeeTransaction -> PayrollDatabase : <global>
+AddEmployeeTransaction -> HoldMethod : <creates>
+
+@enduml

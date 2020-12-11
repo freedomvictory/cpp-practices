@@ -3,25 +3,32 @@
 //
 
 #include "gtest/gtest.h"
-#include "Gregorian.h"
 
 
-TEST(AbsoluteDateTestSuite, ExampleDate){
+TEST(PayrollTest, TestAddSalariedEmployee) {
 
-    GregorianDate gregDate;
-    gregDate.SetMonth(12);
-    gregDate.SetDay(2);
-    gregDate.SetYear(2020);
+    int empId = 1;
+    AddSalariedEmployee t(empId, "Bob", "Home", 1000);
+    t.Execute();
 
-    EXPECT_EQ(gregDate.getAbsoluteDate(), 737761);
+    Employee* e = GpayrollDatabase.GetEmployee(empId);
+    EXPECT_EQ("Bob", e->GetName());
+
+    PaymentClassfication* pc = e->GetClassification();
+    SalariedClassification* sc = dynamic_cast<SalariedClassification*>(pc);
+    assert(sc);
+
+    EXPECT_EQ(1000.00, sc->GetSalary());
+
+    PaymentSchedule* ps = e->GetSchedule();
+    MonthlySchedule* ms = dynamic_cast<MonthlySchedule*>(ps);
+    assert(ms);
+
+    PaymentMethod *pm = e->GetMethod();
+    HoldMethod *hm = dynamic_cast<HoldMethod*>(pm);
+    assert(hm);
+
+
 
 }
 
-TEST(AbsoluteDateTestSuite, IncorrectDate){
-    GregorianDate gregDate;
-    gregDate.SetMonth(12);
-    gregDate.SetDay(0);
-    gregDate.SetYear(2020);
-
-    ASSERT_EQ(gregDate.getAbsoluteDate(),0);
-}
