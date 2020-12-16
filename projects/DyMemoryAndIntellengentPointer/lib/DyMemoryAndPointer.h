@@ -21,7 +21,8 @@ public:
 
     static void testUniquePtr();
 
-
+    static void testDyMemoryArrayStrSplicing();
+    static void testReadVariableLenInputStr();
 };
 
 

@@ -10,5 +10,6 @@ CMakeFiles/cpp_pointer.dir/customStrBlobPtr.cpp.o: ../customStrBlobPtr.cpp
 CMakeFiles/cpp_pointer.dir/customStrBlobPtr.cpp.o: ../customStrBlobPtr.h
 
 CMakeFiles/cpp_pointer.dir/main.cpp.o: ../customStrBlob.h
+CMakeFiles/cpp_pointer.dir/main.cpp.o: ../customStrBlobPtr.h
 CMakeFiles/cpp_pointer.dir/main.cpp.o: ../main.cpp
 

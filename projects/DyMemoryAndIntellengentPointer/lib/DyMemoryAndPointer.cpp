@@ -46,3 +46,40 @@ void OperationAboutPointer::testUniquePtr()
 
 
 }
+//12.23 
+void OperationAboutPointer::testDyMemoryArrayStrSplicing()
+{
+    char *p = new char[256];
+    string a = "hello";
+    string b = "world";
+
+    int i = 0;
+    for(auto c : a)
+    {
+        p[i] = c;
+        ++i;
+    }
+    for(auto c : b)
+    {
+        p[i] = c;
+        ++i;
+    }
+    //p[i] = 0;
+
+    std::cout << "[testDyMemoryArrayStrSplicing] (log) p : " << p << std::endl;
+    delete [] p;
+}
+
+void OperationAboutPointer::testReadVariableLenInputStr()
+{
+    int len = 0;
+    char c;
+    std::cout << "Please Input string length:";
+    std::cin >> len;
+//    std::cin.ignore();
+    //std::cin >> c;
+    std::cin.get(c);
+    char *str = new char[len + 1];
+    std::cin.get(str, len + 1);
+    std::cout << "str : " << str << "\n";
+}
