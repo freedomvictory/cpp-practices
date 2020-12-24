@@ -23,6 +23,8 @@ public:
 
     static void testDyMemoryArrayStrSplicing();
     static void testReadVariableLenInputStr();
+
+    static void testVectorDirectMemoryManage();
 };
 
 

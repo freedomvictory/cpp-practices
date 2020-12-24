@@ -1,0 +1,48 @@
+
+
+@startuml
+
+actor bob
+participant AddEmployeeTransaction as AET
+participant Employee as EM
+participant HoldMethod as HM
+participant PayrollDatabase as PD
+
+bob -> AET :Execute
+activate AET
+
+AET -> EM : (name, address)
+
+AET -> AET : GetClassfication
+activate AET #red
+
+AET -> EM : SetClassfication
+deactivate AET
+activate EM
+
+
+AET -> AET : GetSchedule
+deactivate EM
+activate AET #red
+
+
+AET -> EM : SetSchedule
+deactivate AET
+activate EM
+
+AET -> HM : SetMethod
+deactivate EM
+
+AET -> EM
+activate EM
+
+AET -> PD : AddEmployee(employee)
+deactivate EM
+activate PD
+deactivate AET  
+
+
+
+
+
+@enduml

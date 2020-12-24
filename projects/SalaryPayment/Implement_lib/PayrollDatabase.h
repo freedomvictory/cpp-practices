@@ -15,6 +15,7 @@ public:
     virtual ~PayrollDatabase();
     void AddEmployee(int empid, Employee *emp);
     Employee* GetEmployee(int empid);
+    void clear(){ itsEmployees.clear();}
 
 private:
     map<int, Employee*> itsEmployees;

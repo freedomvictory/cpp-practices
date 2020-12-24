@@ -3,11 +3,14 @@
 //
 
 #include "DyMemoryAndPointer.h"
+#include <vector>
 using std::shared_ptr;
 using std::cout;
 using std::make_shared;
 using std::unique_ptr;
 using std::string;
+using std::vector;
+
 
 void OperationAboutPointer::testSharedPtrIntoFun()
 {
@@ -69,7 +72,7 @@ void OperationAboutPointer::testDyMemoryArrayStrSplicing()
     std::cout << "[testDyMemoryArrayStrSplicing] (log) p : " << p << std::endl;
     delete [] p;
 }
-
+//12.24
 void OperationAboutPointer::testReadVariableLenInputStr()
 {
     int len = 0;
@@ -83,3 +86,17 @@ void OperationAboutPointer::testReadVariableLenInputStr()
     std::cin.get(str, len + 1);
     std::cout << "str : " << str << "\n";
 }
+
+void readInput(vector<int> *arg)
+{
+    std::cout << "Please input some nums:" ;
+    //TODO:
+
+}
+void OperationAboutPointer::testVectorDirectMemoryManage()
+{
+    vector<int>* v = new vector<int>();
+
+
+}
+
