@@ -1,5 +1,7 @@
 # 友元基础 
 
+Refer `c++ primer 241-242, 250 - 252`
+
 ## What is `friend`
 
 类可以让其他类或其他函数访问它的非公有成员，方法就是在类内部声明其他类或函数为`friend`。 一些辅助类或辅助函数可能就是就是该类的友元
@@ -46,14 +48,50 @@ private:
 
 ## friend used between classes  
 
-passage 280 <c++ primer>
 
-another example： customStrBlobPtr , customStrBlob 
-                  JsonValue, JsonValueRef (QT)
+现在我们有两个类，`Window_mgr` 和 `Screen` 类。 现在`Windows_mgr` 类添加一个 `clear()` 函数，用于清空屏幕的内容，因此需要访问 `Screen` 类的私有成员 。那么 `Screen` 类 要声明 `window_mgr` 为其友元 
 
-## member function ,overload function used in class 
+```c++
+class Screen{
+    friend class Window_mgr; 
+    //....
+}
 
-TODO:
+class Window_mgr{
+public:
+    //screen 编号
+    using ScreenIndex = std::vector<Screen>::size_type; 
+    // clear 指定 screen 
+    void clear(ScreenIndex);
+private:
+    //screen 集合 
+    std::vector<Screen> screens{Screen(24, 80, ' ')};
+};
+void Window_mgr::clear(ScrrenIndex i)
+{
+    Screen &s = screen[i];
+    //可访问screen 私有成员 
+    s.contents = string(s.height * s.width, ' ');    
+}
+```
+
+另外一个例子：
+
+我们做的练习 `CustomStrBlobPtr` 它是 `CustomStrBlob` 是它的指针，也是友元。 参考 `<c++ primer 5th>` 12.19 练习
+
+[Click it](https://github.com/jaege/Cpp-Primer-5th-Exercises/tree/master/ch12/12.19)
+
+
+## member function as friend used in class 
+
+上面的关于 `window_mgr` 和 `screen` 的例子，也可以把`clear` 成员函数，单独声明为 友元。参考下面的代码 
+
+```c++ 
+class Screen{
+    //Window_mgr::clear 必须在 `Screen` 类之前声明 
+    friend void Window_mgr::clear(ScrrenIndex);
+}
+```
 
 
 

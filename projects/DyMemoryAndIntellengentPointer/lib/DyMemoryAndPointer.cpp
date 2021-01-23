@@ -10,7 +10,7 @@ using std::make_shared;
 using std::unique_ptr;
 using std::string;
 using std::vector;
-
+using std::allocator;
 
 void OperationAboutPointer::testSharedPtrIntoFun()
 {
@@ -97,6 +97,33 @@ void OperationAboutPointer::testVectorDirectMemoryManage()
 {
     vector<int>* v = new vector<int>();
 
+}
+
+void OperationAboutPointer::testAllocator()
+{
+    allocator<string> alloc;
+    int n = 5;
+    auto const p = alloc.allocate(n);
+    auto q = p;
+    string s;
+    while(std::cin >> s && q != p+n)
+    {
+        alloc.construct(q++, s);
+    }
+    const size_t size = q - p;
+    q = p;
+    for(int i = 0; i < size; i++)
+    {
+        cout  << *q << ",";
+        q++;
+    }
+    cout << std::endl;
+
+    while(q != p)
+        alloc.destroy(--q);
+    alloc.deallocate(p, size);
+
 
 }
+
 

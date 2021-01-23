@@ -1,10 +1,4 @@
 D:\cygwin\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make.exe -DCMAKE_C_COMPILER=/usr/bin/gcc.exe -DCMAKE_CXX_COMPILER=/usr/bin/g++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment
--- Found PythonInterp: /usr/bin/python (found version "2.7.18") 
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug

@@ -4,7 +4,7 @@ project(SalaryPayment)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(SalaryPayment main.cpp)
-
+add_subdirectory(Implement_lib)
 
 
 add_subdirectory(Google_tests)

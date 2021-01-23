@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/lib/iooper.cpp
+iooper.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/lib/iooper.h
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+sstream
+-
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/lib/iooper.h
+

@@ -74,17 +74,20 @@ CMAKE_BINARY_DIR = /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryP
 
 # The main recursive "all" target.
 all: CMakeFiles/SalaryPayment.dir/all
+all: Implement_lib/all
 all: Google_tests/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: Implement_lib/preinstall
 preinstall: Google_tests/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/SalaryPayment.dir/clean
+clean: Implement_lib/clean
 clean: Google_tests/clean
 
 .PHONY : clean
@@ -170,13 +173,31 @@ Google_tests/lib/googletest/clean: Google_tests/lib/googletest/CMakeFiles/gtest.
 .PHONY : Google_tests/lib/googletest/clean
 
 #=============================================================================
+# Directory level rules for directory Implement_lib
+
+# Recursive "all" directory target.
+Implement_lib/all: Implement_lib/CMakeFiles/Implement_lib.dir/all
+
+.PHONY : Implement_lib/all
+
+# Recursive "preinstall" directory target.
+Implement_lib/preinstall:
+
+.PHONY : Implement_lib/preinstall
+
+# Recursive "clean" directory target.
+Implement_lib/clean: Implement_lib/CMakeFiles/Implement_lib.dir/clean
+
+.PHONY : Implement_lib/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/SalaryPayment.dir
 
 # All Build rule for target.
 CMakeFiles/SalaryPayment.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryPayment.dir/build.make CMakeFiles/SalaryPayment.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SalaryPayment.dir/build.make CMakeFiles/SalaryPayment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target SalaryPayment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target SalaryPayment"
 .PHONY : CMakeFiles/SalaryPayment.dir/all
 
 # Build rule for subdir invocation for target.
@@ -197,9 +218,37 @@ CMakeFiles/SalaryPayment.dir/clean:
 .PHONY : CMakeFiles/SalaryPayment.dir/clean
 
 #=============================================================================
+# Target rules for target Implement_lib/CMakeFiles/Implement_lib.dir
+
+# All Build rule for target.
+Implement_lib/CMakeFiles/Implement_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Implement_lib/CMakeFiles/Implement_lib.dir/build.make Implement_lib/CMakeFiles/Implement_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Implement_lib/CMakeFiles/Implement_lib.dir/build.make Implement_lib/CMakeFiles/Implement_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target Implement_lib"
+.PHONY : Implement_lib/CMakeFiles/Implement_lib.dir/all
+
+# Build rule for subdir invocation for target.
+Implement_lib/CMakeFiles/Implement_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Implement_lib/CMakeFiles/Implement_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles 0
+.PHONY : Implement_lib/CMakeFiles/Implement_lib.dir/rule
+
+# Convenience name for target.
+Implement_lib: Implement_lib/CMakeFiles/Implement_lib.dir/rule
+
+.PHONY : Implement_lib
+
+# clean rule for target.
+Implement_lib/CMakeFiles/Implement_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Implement_lib/CMakeFiles/Implement_lib.dir/build.make Implement_lib/CMakeFiles/Implement_lib.dir/clean
+.PHONY : Implement_lib/CMakeFiles/Implement_lib.dir/clean
+
+#=============================================================================
 # Target rules for target Google_tests/CMakeFiles/Google_Tests_run.dir
 
 # All Build rule for target.
+Google_tests/CMakeFiles/Google_Tests_run.dir/all: Implement_lib/CMakeFiles/Implement_lib.dir/all
 Google_tests/CMakeFiles/Google_Tests_run.dir/all: Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/all
 Google_tests/CMakeFiles/Google_Tests_run.dir/all: Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/depend
@@ -209,7 +258,7 @@ Google_tests/CMakeFiles/Google_Tests_run.dir/all: Google_tests/lib/googletest/CM
 
 # Build rule for subdir invocation for target.
 Google_tests/CMakeFiles/Google_Tests_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Google_tests/CMakeFiles/Google_Tests_run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles 0
 .PHONY : Google_tests/CMakeFiles/Google_Tests_run.dir/rule
@@ -232,7 +281,7 @@ Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/all: Google_tests/lib/goog
 Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/all: Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target gmock_main"
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -259,7 +308,7 @@ Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/clean:
 Google_tests/lib/googlemock/CMakeFiles/gmock.dir/all: Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target gmock"
 .PHONY : Google_tests/lib/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,7 +335,7 @@ Google_tests/lib/googlemock/CMakeFiles/gmock.dir/clean:
 Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/all: Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target gtest_main"
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +362,7 @@ Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/clean:
 Google_tests/lib/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target gtest"
 .PHONY : Google_tests/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

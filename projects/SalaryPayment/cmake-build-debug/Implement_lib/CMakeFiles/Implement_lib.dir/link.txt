@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libImplement_lib.a  CMakeFiles/Implement_lib.dir/PayrollDatabase.cpp.o CMakeFiles/Implement_lib.dir/AddEmployeeTransaction.cpp.o
+/usr/bin/ranlib.exe libImplement_lib.a

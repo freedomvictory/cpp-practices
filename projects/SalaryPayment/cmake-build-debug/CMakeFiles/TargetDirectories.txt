@@ -5,6 +5,13 @@
 /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles/edit_cache.dir
 /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles/install/strip.dir
 /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/CMakeFiles/SalaryPayment.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Implement_lib/CMakeFiles/install/strip.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Implement_lib/CMakeFiles/install.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Implement_lib/CMakeFiles/list_install_components.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Implement_lib/CMakeFiles/rebuild_cache.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Implement_lib/CMakeFiles/edit_cache.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Implement_lib/CMakeFiles/install/local.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Implement_lib/CMakeFiles/Implement_lib.dir
 /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Google_tests/CMakeFiles/install/strip.dir
 /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Google_tests/CMakeFiles/install/local.dir
 /cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Google_tests/CMakeFiles/install.dir

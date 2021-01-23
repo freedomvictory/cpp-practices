@@ -1,0 +1,6 @@
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/cmake-build-debug/CMakeFiles/IoLibUsage.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/cmake-build-debug/lib/CMakeFiles/rebuild_cache.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/cmake-build-debug/lib/CMakeFiles/edit_cache.dir
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/IoLibUsage/cmake-build-debug/lib/CMakeFiles/lib.dir

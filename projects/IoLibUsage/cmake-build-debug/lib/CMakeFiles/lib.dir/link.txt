@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc liblib.a  CMakeFiles/lib.dir/iooper.cpp.o
+/usr/bin/ranlib.exe liblib.a

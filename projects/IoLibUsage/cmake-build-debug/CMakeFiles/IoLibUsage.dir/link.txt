@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/IoLibUsage.dir/main.cpp.o  -o IoLibUsage.exe -Wl,--out-implib,libIoLibUsage.dll.a -Wl,--major-image-version,0,--minor-image-version,0  lib/liblib.a 

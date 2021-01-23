@@ -25,6 +25,8 @@ public:
     static void testReadVariableLenInputStr();
 
     static void testVectorDirectMemoryManage();
+    //12.26
+    static void testAllocator();
 };
 
 

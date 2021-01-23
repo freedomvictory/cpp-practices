@@ -314,6 +314,12 @@ Google_tests_SOURCE_DIR:STATIC=/cygdrive/e/Documents/code/c++/cpp-practices/proj
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
 
+//Value Computed by CMake
+Implement_lib_BINARY_DIR:STATIC=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/cmake-build-debug/Implement_lib
+
+//Value Computed by CMake
+Implement_lib_SOURCE_DIR:STATIC=/cygdrive/e/Documents/code/c++/cpp-practices/projects/SalaryPayment/Implement_lib
+
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
@@ -520,7 +526,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

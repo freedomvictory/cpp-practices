@@ -4,7 +4,7 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    OperationAboutPointer::testReadVariableLenInputStr();
+    OperationAboutPointer::testAllocator();
 
     return 0;
 }

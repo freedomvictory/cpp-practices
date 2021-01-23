@@ -1,0 +1,7 @@
+get line from stream into string
+extracts characters from is and stores them into str until the delimitation character delim is found
+(or the new line character, '\n' for (2)).
+The extraction also stops if the end of file is reached in is or if some error occurs during the input operation .
+If the delimiter is found, it is extracted and discarded (i.e it is not stored and the next input operation will
+begin after it).
+Note that any content in str before the call is replaced by the newly extracted sequence
