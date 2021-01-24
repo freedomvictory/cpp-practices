@@ -90,29 +90,29 @@ CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.s"
 	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/main.cpp -o CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.s
 
-CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o: CMakeFiles/DyMemoryAndIntellengentPointer.dir/flags.make
-CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o: ../lib/DyMemoryAndPointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o"
-	/usr/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o -c /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/lib/DyMemoryAndPointer.cpp
+CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.o: CMakeFiles/DyMemoryAndIntellengentPointer.dir/flags.make
+CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.o: ../practices/DyMemoryAndPointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.o"
+	/usr/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.o -c /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/practices/DyMemoryAndPointer.cpp
 
-CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.i"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/lib/DyMemoryAndPointer.cpp > CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.i
+CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.i"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/practices/DyMemoryAndPointer.cpp > CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.i
 
-CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.s"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/lib/DyMemoryAndPointer.cpp -o CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.s
+CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.s"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/practices/DyMemoryAndPointer.cpp -o CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.s
 
 # Object files for target DyMemoryAndIntellengentPointer
 DyMemoryAndIntellengentPointer_OBJECTS = \
 "CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.o" \
-"CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o"
+"CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.o"
 
 # External object files for target DyMemoryAndIntellengentPointer
 DyMemoryAndIntellengentPointer_EXTERNAL_OBJECTS =
 
 DyMemoryAndIntellengentPointer.exe: CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.o
-DyMemoryAndIntellengentPointer.exe: CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o
+DyMemoryAndIntellengentPointer.exe: CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.o
 DyMemoryAndIntellengentPointer.exe: CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make
 DyMemoryAndIntellengentPointer.exe: CMakeFiles/DyMemoryAndIntellengentPointer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DyMemoryAndIntellengentPointer.exe"

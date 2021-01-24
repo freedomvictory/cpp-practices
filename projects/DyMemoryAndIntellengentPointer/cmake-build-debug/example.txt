@@ -1,0 +1,10 @@
+hello this is example program 
+these cleasses are derived directly or indriectly from the classes istrem and ostream 
+we have alrey used object whose types were these classes : 
+cin istram and count 
+Sets are containers that store unique elements following a specific order 
+In a set the value of an element also identifies it ( the value is itself the key of type T ) and each value must be unique
+Elements in associative containers are referenced by their key and not by their absolute position in the container
+The elements in the container follow a strict order at all times
+All inserted elements are given a position in this order
+he value of an element is also the key used to identify it

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/textQuery/textQueryMain.cpp
+iostream
+-
+fstream
+-
+vector
+-
+set
+-
+string
+-
+sstream
+-
+

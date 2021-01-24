@@ -16,8 +16,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.17.3/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.17.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/usr/share/cmake-3.17.3/Modules/CMakeCommonLanguageInclude.cmake"
-  "/usr/share/cmake-3.17.3/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-  "/usr/share/cmake-3.17.3/Modules/CMakeFindCodeBlocks.cmake"
   "/usr/share/cmake-3.17.3/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.17.3/Modules/CMakeInitializeConfigs.cmake"
   "/usr/share/cmake-3.17.3/Modules/CMakeLanguageInformation.cmake"
@@ -35,7 +33,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.17.3/Modules/Platform/CYGWIN-windres.cmake"
   "/usr/share/cmake-3.17.3/Modules/Platform/CYGWIN.cmake"
   "/usr/share/cmake-3.17.3/Modules/Platform/UnixPaths.cmake"
-  "/usr/share/cmake-3.17.3/Modules/ProcessorCount.cmake"
   )
 
 # The corresponding makefile is:
@@ -51,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/DyMemoryAndIntellengentPointer.dir/DependInfo.cmake"
+  "CMakeFiles/hello.dir/DependInfo.cmake"
   )

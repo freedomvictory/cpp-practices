@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/lib/DyMemoryAndPointer.cpp" "/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o"
   "/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/main.cpp" "/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.o"
+  "/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/practices/DyMemoryAndPointer.cpp" "/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

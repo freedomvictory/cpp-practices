@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/lib/DyMemoryAndPointer.cpp
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/main.cpp
+iostream
+-
+practices/DyMemoryAndPointer.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/practices/DyMemoryAndPointer.h
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/practices/DyMemoryAndPointer.cpp
 DyMemoryAndPointer.h
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/lib/DyMemoryAndPointer.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/practices/DyMemoryAndPointer.h
 vector
 -
 
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/lib/DyMemoryAndPointer.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/practices/DyMemoryAndPointer.h
 iostream
 -
 memory

@@ -89,8 +89,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -131,71 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DyMemoryAndIntellengentPointer
+# Target rules for targets named hello
 
 # Build rule for target.
-DyMemoryAndIntellengentPointer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DyMemoryAndIntellengentPointer
-.PHONY : DyMemoryAndIntellengentPointer
+hello: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
 
 # fast build rule for target.
-DyMemoryAndIntellengentPointer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/build
-.PHONY : DyMemoryAndIntellengentPointer/fast
+hello/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+.PHONY : hello/fast
 
-lib/DyMemoryAndPointer.o: lib/DyMemoryAndPointer.cpp.o
+textQuery/textQueryMain.o: textQuery/textQueryMain.cpp.o
 
-.PHONY : lib/DyMemoryAndPointer.o
-
-# target to build an object file
-lib/DyMemoryAndPointer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o
-.PHONY : lib/DyMemoryAndPointer.cpp.o
-
-lib/DyMemoryAndPointer.i: lib/DyMemoryAndPointer.cpp.i
-
-.PHONY : lib/DyMemoryAndPointer.i
-
-# target to preprocess a source file
-lib/DyMemoryAndPointer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.i
-.PHONY : lib/DyMemoryAndPointer.cpp.i
-
-lib/DyMemoryAndPointer.s: lib/DyMemoryAndPointer.cpp.s
-
-.PHONY : lib/DyMemoryAndPointer.s
-
-# target to generate assembly for a file
-lib/DyMemoryAndPointer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.s
-.PHONY : lib/DyMemoryAndPointer.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : textQuery/textQueryMain.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.o
-.PHONY : main.cpp.o
+textQuery/textQueryMain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/textQuery/textQueryMain.cpp.o
+.PHONY : textQuery/textQueryMain.cpp.o
 
-main.i: main.cpp.i
+textQuery/textQueryMain.i: textQuery/textQueryMain.cpp.i
 
-.PHONY : main.i
+.PHONY : textQuery/textQueryMain.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.i
-.PHONY : main.cpp.i
+textQuery/textQueryMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/textQuery/textQueryMain.cpp.i
+.PHONY : textQuery/textQueryMain.cpp.i
 
-main.s: main.cpp.s
+textQuery/textQueryMain.s: textQuery/textQueryMain.cpp.s
 
-.PHONY : main.s
+.PHONY : textQuery/textQueryMain.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.s
-.PHONY : main.cpp.s
+textQuery/textQueryMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/textQuery/textQueryMain.cpp.s
+.PHONY : textQuery/textQueryMain.cpp.s
 
 # Help Target
 help:
@@ -205,13 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DyMemoryAndIntellengentPointer"
-	@echo "... lib/DyMemoryAndPointer.o"
-	@echo "... lib/DyMemoryAndPointer.i"
-	@echo "... lib/DyMemoryAndPointer.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... hello"
+	@echo "... textQuery/textQueryMain.o"
+	@echo "... textQuery/textQueryMain.i"
+	@echo "... textQuery/textQueryMain.s"
 .PHONY : help
 
 

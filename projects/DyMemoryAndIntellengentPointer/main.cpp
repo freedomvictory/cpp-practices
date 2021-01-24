@@ -1,5 +1,5 @@
 #include <iostream>
-#include "lib/DyMemoryAndPointer.h"
+#include "BasicPractices/DyMemoryAndPointer.h"
 
 
 int main() {

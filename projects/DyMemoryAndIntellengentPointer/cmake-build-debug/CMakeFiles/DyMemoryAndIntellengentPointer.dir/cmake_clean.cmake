@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DyMemoryAndIntellengentPointer.dir/lib/DyMemoryAndPointer.cpp.o"
   "CMakeFiles/DyMemoryAndIntellengentPointer.dir/main.cpp.o"
+  "CMakeFiles/DyMemoryAndIntellengentPointer.dir/practices/DyMemoryAndPointer.cpp.o"
   "DyMemoryAndIntellengentPointer.exe"
   "DyMemoryAndIntellengentPointer.pdb"
   "libDyMemoryAndIntellengentPointer.dll.a"

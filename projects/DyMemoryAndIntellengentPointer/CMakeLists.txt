@@ -3,5 +3,8 @@ project(DyMemoryAndIntellengentPointer)
 
 set(CMAKE_CXX_STANDARD 11)
 
+# basic practice 
+#add_executable(hello main.cpp BasicPractices/DyMemoryAndPointer.cpp )
 
-add_executable(DyMemoryAndIntellengentPointer main.cpp lib/DyMemoryAndPointer.cpp )
+
+add_executable(hello textQuery/textQueryMain.cpp)

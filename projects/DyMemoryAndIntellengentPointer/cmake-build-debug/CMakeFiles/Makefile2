@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemor
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/DyMemoryAndIntellengentPointer.dir/all
+all: CMakeFiles/hello.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/DyMemoryAndIntellengentPointer.dir/clean
+clean: CMakeFiles/hello.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DyMemoryAndIntellengentPointer.dir
+# Target rules for target CMakeFiles/hello.dir
 
 # All Build rule for target.
-CMakeFiles/DyMemoryAndIntellengentPointer.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target DyMemoryAndIntellengentPointer"
-.PHONY : CMakeFiles/DyMemoryAndIntellengentPointer.dir/all
+CMakeFiles/hello.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target hello"
+.PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DyMemoryAndIntellengentPointer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DyMemoryAndIntellengentPointer.dir/all
+CMakeFiles/hello.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/DyMemoryAndIntellengentPointer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/DyMemoryAndIntellengentPointer.dir/rule
+.PHONY : CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
-DyMemoryAndIntellengentPointer: CMakeFiles/DyMemoryAndIntellengentPointer.dir/rule
+hello: CMakeFiles/hello.dir/rule
 
-.PHONY : DyMemoryAndIntellengentPointer
+.PHONY : hello
 
 # clean rule for target.
-CMakeFiles/DyMemoryAndIntellengentPointer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DyMemoryAndIntellengentPointer.dir/build.make CMakeFiles/DyMemoryAndIntellengentPointer.dir/clean
-.PHONY : CMakeFiles/DyMemoryAndIntellengentPointer.dir/clean
+CMakeFiles/hello.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
+.PHONY : CMakeFiles/hello.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
