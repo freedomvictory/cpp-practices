@@ -1,0 +1,3 @@
+e:/Documents/code/c++/cpp-practices/projects/classUsage/build/CMakeFiles/rebuild_cache.dir
+e:/Documents/code/c++/cpp-practices/projects/classUsage/build/CMakeFiles/edit_cache.dir
+e:/Documents/code/c++/cpp-practices/projects/classUsage/build/CMakeFiles/classUsage.dir

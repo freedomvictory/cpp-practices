@@ -1,0 +1,7 @@
+[
+{
+  "directory": "e:/Documents/code/c++/cpp-practices/projects/classUsage/build",
+  "command": "D:/cygwin/bin/g++.exe    -g   -std=gnu++11 -o CMakeFiles/classUsage.dir/friendUsage.cpp.o -c e:/Documents/code/c++/cpp-practices/projects/classUsage/friendUsage.cpp",
+  "file": "e:/Documents/code/c++/cpp-practices/projects/classUsage/friendUsage.cpp"
+}
+]
