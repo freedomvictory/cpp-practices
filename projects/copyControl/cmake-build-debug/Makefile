@@ -68,10 +68,10 @@ RM = /usr/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/e/Documents/code/c++/cpp-practices/projects/classUsage
+CMAKE_SOURCE_DIR = /cygdrive/e/Documents/code/c++/cpp-practices/projects/copyControl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/e/Documents/code/c++/cpp-practices/projects/classUsage/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/e/Documents/code/c++/cpp-practices/projects/copyControl/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -89,8 +89,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/classUsage/cmake-build-debug/CMakeFiles /cygdrive/e/Documents/code/c++/cpp-practices/projects/classUsage/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/copyControl/cmake-build-debug/CMakeFiles /cygdrive/e/Documents/code/c++/cpp-practices/projects/copyControl/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/classUsage/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/Documents/code/c++/cpp-practices/projects/copyControl/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named classUsage
+# Target rules for targets named hello
 
 # Build rule for target.
-classUsage: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 classUsage
-.PHONY : classUsage
+hello: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
 
 # fast build rule for target.
-classUsage/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classUsage.dir/build.make CMakeFiles/classUsage.dir/build
-.PHONY : classUsage/fast
+hello/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+.PHONY : hello/fast
 
-friendUsage.o: friendUsage.cpp.o
+13-8.o: 13-8.cpp.o
 
-.PHONY : friendUsage.o
+.PHONY : 13-8.o
 
 # target to build an object file
-friendUsage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classUsage.dir/build.make CMakeFiles/classUsage.dir/friendUsage.cpp.o
-.PHONY : friendUsage.cpp.o
+13-8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/13-8.cpp.o
+.PHONY : 13-8.cpp.o
 
-friendUsage.i: friendUsage.cpp.i
+13-8.i: 13-8.cpp.i
 
-.PHONY : friendUsage.i
+.PHONY : 13-8.i
 
 # target to preprocess a source file
-friendUsage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classUsage.dir/build.make CMakeFiles/classUsage.dir/friendUsage.cpp.i
-.PHONY : friendUsage.cpp.i
+13-8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/13-8.cpp.i
+.PHONY : 13-8.cpp.i
 
-friendUsage.s: friendUsage.cpp.s
+13-8.s: 13-8.cpp.s
 
-.PHONY : friendUsage.s
+.PHONY : 13-8.s
 
 # target to generate assembly for a file
-friendUsage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classUsage.dir/build.make CMakeFiles/classUsage.dir/friendUsage.cpp.s
-.PHONY : friendUsage.cpp.s
+13-8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/13-8.cpp.s
+.PHONY : 13-8.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... classUsage"
-	@echo "... friendUsage.o"
-	@echo "... friendUsage.i"
-	@echo "... friendUsage.s"
+	@echo "... hello"
+	@echo "... 13-8.o"
+	@echo "... 13-8.i"
+	@echo "... 13-8.s"
 .PHONY : help
 
 

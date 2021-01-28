@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/copyControl.dir/13-5.cpp.o  -o copyControl.exe -Wl,--out-implib,libcopyControl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
