@@ -19,14 +19,8 @@ using std::out_of_range;
 
 class customStrBlobPtr;
 class customStrBlob {
-
-
     friend class customStrBlobPtr;
-
 public:
-
-
-
     typedef vector<string>::size_type size_type;
     customStrBlob();
     customStrBlob(std::initializer_list<string> il);

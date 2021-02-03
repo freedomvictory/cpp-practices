@@ -11,7 +11,6 @@ using std::weak_ptr;
 
 
 class customStrBlobPtr {
-
 public:
     customStrBlobPtr() : curr(0){ }
     explicit customStrBlobPtr(customStrBlob &c, std::size_t sz = 0) :
@@ -19,15 +18,11 @@ public:
 
     string& deref() const;
     customStrBlobPtr& incr();
-
 private:
 
     shared_ptr<vector<string>> check(std::size_t i, const string& msg) const;
     weak_ptr<vector<string>> wptr;
     std::size_t curr;
-
-
-
 };
 
 
