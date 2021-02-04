@@ -6,6 +6,7 @@
 #include <vector>
 #include <iostream>
 
+
 //practice 7.32
 //passge 253, 友元的使用 
 

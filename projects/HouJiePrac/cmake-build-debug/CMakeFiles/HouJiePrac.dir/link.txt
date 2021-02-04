@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/HouJiePrac.dir/BasicClass/complex-test.cpp.o  -o HouJiePrac.exe -Wl,--out-implib,libHouJiePrac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
