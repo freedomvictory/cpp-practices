@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/BasicClass/complex-test.cpp
-complex.h
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/BasicClass/complex.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/mystring.h
+cstring
+-
 iostream
 -
 
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/BasicClass/complex.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/string-test.cpp
+mystring.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/mystring.h
 iostream
 -
 

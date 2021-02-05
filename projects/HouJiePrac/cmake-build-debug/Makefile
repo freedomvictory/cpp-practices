@@ -143,32 +143,32 @@ HouJiePrac/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/build
 .PHONY : HouJiePrac/fast
 
-BasicClass/complex-test.o: BasicClass/complex-test.cpp.o
+ClassWithPointer/string-test.o: ClassWithPointer/string-test.cpp.o
 
-.PHONY : BasicClass/complex-test.o
+.PHONY : ClassWithPointer/string-test.o
 
 # target to build an object file
-BasicClass/complex-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/BasicClass/complex-test.cpp.o
-.PHONY : BasicClass/complex-test.cpp.o
+ClassWithPointer/string-test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o
+.PHONY : ClassWithPointer/string-test.cpp.o
 
-BasicClass/complex-test.i: BasicClass/complex-test.cpp.i
+ClassWithPointer/string-test.i: ClassWithPointer/string-test.cpp.i
 
-.PHONY : BasicClass/complex-test.i
+.PHONY : ClassWithPointer/string-test.i
 
 # target to preprocess a source file
-BasicClass/complex-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/BasicClass/complex-test.cpp.i
-.PHONY : BasicClass/complex-test.cpp.i
+ClassWithPointer/string-test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.i
+.PHONY : ClassWithPointer/string-test.cpp.i
 
-BasicClass/complex-test.s: BasicClass/complex-test.cpp.s
+ClassWithPointer/string-test.s: ClassWithPointer/string-test.cpp.s
 
-.PHONY : BasicClass/complex-test.s
+.PHONY : ClassWithPointer/string-test.s
 
 # target to generate assembly for a file
-BasicClass/complex-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/BasicClass/complex-test.cpp.s
-.PHONY : BasicClass/complex-test.cpp.s
+ClassWithPointer/string-test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.s
+.PHONY : ClassWithPointer/string-test.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HouJiePrac"
-	@echo "... BasicClass/complex-test.o"
-	@echo "... BasicClass/complex-test.i"
-	@echo "... BasicClass/complex-test.s"
+	@echo "... ClassWithPointer/string-test.o"
+	@echo "... ClassWithPointer/string-test.i"
+	@echo "... ClassWithPointer/string-test.s"
 .PHONY : help
 
 

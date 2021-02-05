@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/BasicClass/complex-test.cpp" "/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/CMakeFiles/HouJiePrac.dir/BasicClass/complex-test.cpp.o"
+  "/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/string-test.cpp" "/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

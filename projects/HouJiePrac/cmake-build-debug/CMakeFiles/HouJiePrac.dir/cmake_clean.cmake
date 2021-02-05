@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HouJiePrac.dir/BasicClass/complex-test.cpp.o"
+  "CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o"
   "HouJiePrac.exe"
   "HouJiePrac.pdb"
   "libHouJiePrac.dll.a"

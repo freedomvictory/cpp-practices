@@ -28,7 +28,10 @@ int main(int argc, char ** argv)
     c1 *= c2;
     std::cout << c1 << std::endl;
 
+    Complex* complexs = new Complex[3]{Complex(1,2), Complex(2,3), Complex(3,4)};
 
+    std::cout << complexs[0] << complexs[1] << complexs[2];
+    delete[] complexs;
 
     return 0;
 }

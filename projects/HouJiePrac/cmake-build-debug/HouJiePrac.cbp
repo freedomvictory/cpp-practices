@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/BasicClass/complex-test.cpp">
+		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/mystring.h">
 			<Option target="HouJiePrac"/>
 		</Unit>
-		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/BasicClass/complex.h">
+		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/string-test.cpp">
 			<Option target="HouJiePrac"/>
 		</Unit>
 		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/CMakeLists.txt">
