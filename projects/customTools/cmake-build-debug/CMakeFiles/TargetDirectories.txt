@@ -1,0 +1,3 @@
+/cygdrive/e/documents/Documents/code/c++/cpp-practices/projects/customTools/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/e/documents/Documents/code/c++/cpp-practices/projects/customTools/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/e/documents/Documents/code/c++/cpp-practices/projects/customTools/cmake-build-debug/CMakeFiles/customTools.dir

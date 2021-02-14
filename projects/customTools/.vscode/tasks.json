@@ -1,0 +1,47 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cmake",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-G",
+                "Unix Makefiles",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DCMAKE_MAKE_PROGRAM=/usr/bin/make.exe",
+                "-DCMAKE_C_COMPILER=/usr/bin/gcc.exe",
+                "-DCMAKE_CXX_COMPILER=/usr/bin/g++.exe",
+                ".."
+            ],
+            "options": {
+                "cwd": "cmake-build-debug"
+            }
+        },
+        {
+            "label":"make",
+            "type": "shell",
+            "command": "make -f ${workspaceFolder}\\cmake-build-debug\\Makefile -j 8",
+            "args": [
+            
+            ],
+            "options": {
+                "cwd": "cmake-build-debug"
+            }
+        },
+        {
+            "label":"make clean",
+            "type": "shell",
+            "command": "make clean -f ${workspaceFolder}\\cmake-build-debug\\Makefile -j 8",
+            "args": [
+            
+            ],
+            "options": {
+                "cwd": "cmake-build-debug"
+            }
+            
+        }
+    ]
+}

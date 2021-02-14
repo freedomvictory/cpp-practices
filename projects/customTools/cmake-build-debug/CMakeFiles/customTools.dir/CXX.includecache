@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/documents/Documents/code/c++/cpp-practices/projects/customTools/convhelper.h
+iostream
+-
+
+/cygdrive/e/documents/Documents/code/c++/cpp-practices/projects/customTools/main.cpp
+iostream
+-
+convhelper.h
+/cygdrive/e/documents/Documents/code/c++/cpp-practices/projects/customTools/convhelper.h
+
