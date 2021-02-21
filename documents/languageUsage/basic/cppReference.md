@@ -58,3 +58,26 @@ vals[2] = 33.1
 vals[3] = 70.8
 vals[4] = 50
 ```
+
+## 用引用写只读属性 
+
+```cpp
+class Employee
+{
+public:
+    Employee()=default; 
+    Employee(string name) :m_name(name)
+    {}
+    //只读属性  
+    const string& getName() const {return m_name;}
+private:
+    string m_name; 
+    int m_id; 
+};
+```
+
+把引用赋值给普通变量，相当于执行一次拷贝构造或拷贝赋值 
+```cpp 
+Emplyee b("hello");
+string name_b = b.getName(); 
+```

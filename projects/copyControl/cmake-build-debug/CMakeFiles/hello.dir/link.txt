@@ -1,1 +1,1 @@
-/usr/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/hello.dir/13-15.cpp.o  -o hello.exe -Wl,--out-implib,libhello.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/hello.dir/13-18.cpp.o  -o hello.exe -Wl,--out-implib,libhello.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
