@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="HouJiePrac">
-				<Option output="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/HouJiePrac.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello">
+				<Option output="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/hello.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 HouJiePrac"/>
+					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello"/>
 					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="HouJiePrac/fast">
-				<Option output="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/HouJiePrac.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello/fast">
+				<Option output="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/hello.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,18 +73,18 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 HouJiePrac/fast"/>
+					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/mystring.h">
-			<Option target="HouJiePrac"/>
+		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/Composite/shapes.cpp">
+			<Option target="hello"/>
 		</Unit>
-		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/string-test.cpp">
-			<Option target="HouJiePrac"/>
+		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/Composite/shapes.h">
+			<Option target="hello"/>
 		</Unit>
 		<Unit filename="/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HouJiePrac
+# Target rules for targets named hello
 
 # Build rule for target.
-HouJiePrac: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HouJiePrac
-.PHONY : HouJiePrac
+hello: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
 
 # fast build rule for target.
-HouJiePrac/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/build
-.PHONY : HouJiePrac/fast
+hello/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+.PHONY : hello/fast
 
-ClassWithPointer/string-test.o: ClassWithPointer/string-test.cpp.o
+oop/Composite/shapes.o: oop/Composite/shapes.cpp.o
 
-.PHONY : ClassWithPointer/string-test.o
+.PHONY : oop/Composite/shapes.o
 
 # target to build an object file
-ClassWithPointer/string-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o
-.PHONY : ClassWithPointer/string-test.cpp.o
+oop/Composite/shapes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/oop/Composite/shapes.cpp.o
+.PHONY : oop/Composite/shapes.cpp.o
 
-ClassWithPointer/string-test.i: ClassWithPointer/string-test.cpp.i
+oop/Composite/shapes.i: oop/Composite/shapes.cpp.i
 
-.PHONY : ClassWithPointer/string-test.i
+.PHONY : oop/Composite/shapes.i
 
 # target to preprocess a source file
-ClassWithPointer/string-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.i
-.PHONY : ClassWithPointer/string-test.cpp.i
+oop/Composite/shapes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/oop/Composite/shapes.cpp.i
+.PHONY : oop/Composite/shapes.cpp.i
 
-ClassWithPointer/string-test.s: ClassWithPointer/string-test.cpp.s
+oop/Composite/shapes.s: oop/Composite/shapes.cpp.s
 
-.PHONY : ClassWithPointer/string-test.s
+.PHONY : oop/Composite/shapes.s
 
 # target to generate assembly for a file
-ClassWithPointer/string-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HouJiePrac.dir/build.make CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.s
-.PHONY : ClassWithPointer/string-test.cpp.s
+oop/Composite/shapes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/oop/Composite/shapes.cpp.s
+.PHONY : oop/Composite/shapes.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... HouJiePrac"
-	@echo "... ClassWithPointer/string-test.o"
-	@echo "... ClassWithPointer/string-test.i"
-	@echo "... ClassWithPointer/string-test.s"
+	@echo "... hello"
+	@echo "... oop/Composite/shapes.o"
+	@echo "... oop/Composite/shapes.i"
+	@echo "... oop/Composite/shapes.s"
 .PHONY : help
 
 

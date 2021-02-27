@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/Composite/shapes.cpp
+shapes.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/Composite/shapes.h
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/Composite/shapes.h
+iostream
+-
+vector
+-
+

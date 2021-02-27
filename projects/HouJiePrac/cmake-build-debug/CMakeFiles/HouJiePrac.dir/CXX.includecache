@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/mystring.h
-cstring
--
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/prototypeDesignPattern/Image.h
 iostream
 -
 
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/string-test.cpp
-mystring.h
-/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/mystring.h
-iostream
--
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/prototypeDesignPattern/ImageChildren.h
+Image.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/prototypeDesignPattern/Image.h
+
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/prototypeDesignPattern/main.cpp
+ImageChildren.h
+/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/prototypeDesignPattern/ImageChildren.h
 

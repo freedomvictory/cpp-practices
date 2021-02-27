@@ -77,27 +77,27 @@ include CMakeFiles/HouJiePrac.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HouJiePrac.dir/flags.make
 
-CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o: CMakeFiles/HouJiePrac.dir/flags.make
-CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o: ../ClassWithPointer/string-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o"
-	/usr/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o -c /cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/string-test.cpp
+CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.o: CMakeFiles/HouJiePrac.dir/flags.make
+CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.o: ../oop/prototypeDesignPattern/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.o"
+	/usr/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.o -c /cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/prototypeDesignPattern/main.cpp
 
-CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.i"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/string-test.cpp > CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.i
+CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.i"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/prototypeDesignPattern/main.cpp > CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.i
 
-CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.s"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/ClassWithPointer/string-test.cpp -o CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.s
+CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.s"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/oop/prototypeDesignPattern/main.cpp -o CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.s
 
 # Object files for target HouJiePrac
 HouJiePrac_OBJECTS = \
-"CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o"
+"CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.o"
 
 # External object files for target HouJiePrac
 HouJiePrac_EXTERNAL_OBJECTS =
 
-HouJiePrac.exe: CMakeFiles/HouJiePrac.dir/ClassWithPointer/string-test.cpp.o
+HouJiePrac.exe: CMakeFiles/HouJiePrac.dir/oop/prototypeDesignPattern/main.cpp.o
 HouJiePrac.exe: CMakeFiles/HouJiePrac.dir/build.make
 HouJiePrac.exe: CMakeFiles/HouJiePrac.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/e/Documents/code/c++/cpp-practices/projects/HouJiePrac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HouJiePrac.exe"
